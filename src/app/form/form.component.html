@@ -1,0 +1,21 @@
+
+
+
+
+<mat-card>
+<form>
+
+  <mat-form-field>
+
+  <input type="text" name="username" matInput placeholder="Your name" [(ngModel)]="contentValue">
+
+</mat-form-field>
+
+<br><br>
+  <button type="submit" value="submit" mat-raised-button color="warn" (click)="getValue()">Submit</button>
+
+  <button type="reset" mat-stroked-button color="accent" (click)="checkButton()"> Reset</button>
+</form>
+</mat-card>
+<br><br>
+<img [src]="imgurl">
